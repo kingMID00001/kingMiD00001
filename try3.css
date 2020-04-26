@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-bar{
+    text-align:left;
+    background-color:black;
+    opacity: 0.8;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin:5px 12px;
+    padding:5px 12px;
+}
+
+.menu-bar ul li a{
+    color: white;
+}
+.menu-bar ul li a:hover{
+    color:rgb(251, 251, 137);
+}
+
+.menu-bar .fa{
+    margin-right: 8px;
+}
+
+.sub-menu-1{
+    display: none;
+}
+/* ここ完成しだい確認！！！ */
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color:black;
+    opacity: 0.8;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #ffff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    }
+
+.fa-angle-right{
+    float: right;
+}
+
+.sub-menu-2{
+    display: none;
+}
+
+
+
+
+
+
+
+
+.container{
+    width:1170px;
+    margin:0px auto;
+  }
+.main{
+    background-image: url(../skyscraper3.jpg);
+    background-size: cover;
+    height: 800px;
+    /* padding: 100px 0px; */
+    text-align: center;
+ }
+
+.introduce{
+  padding-top:200px;
+}
+
+.introduce h1{
+    color: black;
+    /* background-color:rgb(130, 197, 255); */
+    background-color: rgb(251, 251, 137);
+    opacity: 0.7;
+    padding: 0px 0px;
+    display: inline-block;
+}
+.introduce p{
+    color: black;
+    /* background-color:rgb(130, 197, 255); */
+    background-color: rgb(251, 251, 137);
+    opacity: 0.7;
+    padding: 0px 0px;
+    display: inline-block;
+}
+.main-2{
+    background-color:rgba(0, 0, 0, 0.838);
+    /* height: px; */
+    margin-top: 0px;
+    padding: 100px 0px 100px 0px;
+}
+
+.sentence{
+    text-align: center;
+}
+
+.sentence-h{
+    margin-top: 0px;
+    padding-bottom: 50px;
+    /* color: rgba(0, 0, 0, 0.81); */
+    color: white;
+    font-weight: normal;
+}
+
+/* .pictures */
+
+.picture-top{
+    text-align: center;
+   
+}
+
+/* .picture */
+
+.picture-set{
+    width: 600px;
+    height: 400px;
+}
+
+.picture p{
+    color: white;
+}
+.tex-contents{
+    color: white;
+    
+}
